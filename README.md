@@ -1,7 +1,7 @@
 # DOM_Dynamo.js
 
 ##What?
-A cross-browser javascript function which allows you to listen for dynamically loaded async elements. It's heavily based on the work of [Daniel Buchner](http://www.backalleycoder.com/) as presented by [David Walsh](https://davidwalsh.name/detect-node-insertion).
+A cross-browser javascript function which allows you to listen for dynamically loaded async elements. It's heavily based on the work of [Daniel Buchner](http://www.backalleycoder.com/2012/04/25/i-want-a-damnodeinserted/) as presented by [David Walsh](https://davidwalsh.name/detect-node-insertion).
 
 Included in this repository is an example html document which you are free to explore and JS and CSS to add to your project.
 

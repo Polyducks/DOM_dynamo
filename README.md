@@ -5,6 +5,8 @@ A cross-browser javascript function which allows you to listen for dynamically l
 
 Included in this repository is an example html document which you are free to explore and JS and CSS to add to your project.
 
+In the example, two items are loaded dynamically after the page is ready. The event listeners have been added to write to the console when those elements load.
+
 ##How?
 To install, add the JS to the top of your javascript file. It's important it appears before you call the function. Add the CSS to your stylesheet.
 

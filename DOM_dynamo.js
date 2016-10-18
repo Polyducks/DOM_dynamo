@@ -14,7 +14,7 @@ var On_Element_Ready = function(id, callback){
 				var style = document.createElement("style");
 				style.id = "dynamic-node-insert-detection-css";
 				style.setAttribute( "media", "screen" );
-				style.setAttribute("data-dynamic-origin-comment", "Item dynamically added by On_Element_Ready function in client-generic.css");
+				style.setAttribute("data-dynamic-origin-comment", "Item dynamically added with javascript");
 				style.appendChild( document.createTextNode("") );
 				document.head.appendChild(style);
 				return style;

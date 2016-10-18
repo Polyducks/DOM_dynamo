@@ -1,0 +1,27 @@
+/*-------------------------------------------------
+FUNCTIONAL JS
+creates an animation which is triggered when an 
+item loads.
+-------------------------------------------------*/
+
+	/* Used to detect when an element has loaded */
+	@keyframes nodeInserted {  
+		from { opacity: 0.99; }
+		to { opacity: 1; }  
+	}
+	@-moz-keyframes nodeInserted {  
+		from { opacity: 0.99; }
+		to { opacity: 1; }
+	}
+	@-webkit-keyframes nodeInserted {  
+		from { opacity: 0.99; }
+		to { opacity: 1; }
+	}
+	@-ms-keyframes nodeInserted {  
+		from { opacity: 0.99; }
+		to { opacity: 1; }
+	}
+	@-o-keyframes nodeInserted {  
+		from { opacity: 0.99; }
+		to { opacity: 1; }
+	} 

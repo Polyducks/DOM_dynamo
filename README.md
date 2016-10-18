@@ -3,8 +3,12 @@
 ##What?
 A cross-browser javascript function which allows you to listen for dynamically loaded async elements. It's heavily based on the work of [Daniel Buchner](http://www.backalleycoder.com/) as presented by [David Walsh](https://davidwalsh.name/detect-node-insertion).
 
+Included in this repository is an example html document which you are free to explore and JS and CSS to add to your project.
+
 ##How?
-Included in this repository is an example html document which you are free to explore. The repo also provides a script you can call with `On_Element_Ready("element_id", function(){ <do this> });`
+To install, add the JS to the top of your javascript file. It's important it appears before you call the function. Add the CSS to your stylesheet.
+
+You can add an event listener to async loaded content using `On_Element_Ready("element_id", function(){ <do this> });`
 
 ###Okay, but how does it actually work?
 

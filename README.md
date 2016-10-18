@@ -10,13 +10,13 @@ In the example, two items are loaded dynamically after the page is ready. The ev
 ##How?
 To install, add the JS to the top of your javascript file. It's important it appears before you call the function. Add the CSS to your stylesheet.
 
-You can add an event listener to async loaded content using `On_Element_Ready("element_id", function(){ <do this> });`
+You can add an event listener to async content using `On_Element_Ready("element_id", function(){ <do this> });`
 
 ###Okay, but how does it actually work?
 
 * We make a call to On_Element_Ready, sending it the id of the item we're waiting for along with a callback (the function to execute when it loads)
 * The function will run it if the element already exists, or...
-* It'll add styles to a stylesheet which applies an animation
+* It'll add styles to a stylesheet which applies a CSS animation
 * It adds an event listener to the document, waiting for that animation to play
 * Then it'll wait until that animation plays, signifying that the element has loaded - and call the callback
 
